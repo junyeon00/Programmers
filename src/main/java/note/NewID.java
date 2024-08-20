@@ -26,8 +26,8 @@ public class NewID {
         if(!answer.isEmpty() && answer.charAt(answer.length() - 1) == '.')
             answer = answer.substring(0, answer.length() - 1);
 
-        // new_id가 공백이라면 a를 대입
-        if(new_id.isEmpty())
+        // answer가 공백이라면 a를 넣어줌
+        if(answer.isEmpty())
             answer = "a";
 
         // 길이가 16자 이상이면 15자까지만 잘라서 씀
